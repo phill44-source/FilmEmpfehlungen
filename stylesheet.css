@@ -72,4 +72,20 @@ a{
     margin:1em;
     align-self: right;
 }
+#spoiler{
+    visibility:hidden;
+}
+#spoilertext{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-style: italic;
+    color:rgb(164, 127, 199);
+    margin-top: 4em;
+
+
+}
 

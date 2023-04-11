@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="../stylesheet.css">
+    <title>FE</title>
+
+    <script>
+        let spoiler = false;
+        function reveal(){
+            if(spoiler == false){
+                document.getElementById("spoiler").style.visibility = "visible";
+                spoiler = true;    
+            }
+            else{
+                document.getElementById("spoiler").style.visibility = "hidden";
+                spoiler = false;
+            }
+        }
+    </script>
+
+</head>
+
+
+<body class="main">
+
+
+
+    <div id="navbar">
+        <a href="../index.html"><div id="navbar_li">Startseite</div></a>
+        <a href="../kathegorien.html"><div id="navbar_li">Kathegorien</div></a>
+    </div>
+
+    <h1>Hello little one</h1>
+
+
+    <div id="griddyboy">
+        <p id="text"> 
+        Anfangstext blah blah blah
+        </p>
+        
+        <img id="pic" src="Coolpalette.png" alt="Some Pride flags" >
+    </div>
+
+    <p>
+        Weiterer text blah blah blah
+        asd
+
+    </p>
+    <p id="spoilertext" onclick="reveal()">Klicke mich für spoiler!</p>
+    <p id="spoiler">
+    hello there this is a spoiler
+    </p>
+
+
+
+</body>
+<footer>
+
+
+</footer>
