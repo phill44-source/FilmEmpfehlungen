@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="../stylesheet.css">
+    <title>FE</title>
+
+    <script>
+        let spoiler = false;
+        function reveal() {
+            if (spoiler == false) {
+                document.getElementById("spoiler").style.visibility = "visible";
+                spoiler = true;
+            }
+            else {
+                document.getElementById("spoiler").style.visibility = "hidden";
+                spoiler = false;
+            }
+        }
+    </script>
+
+</head>
+
+
+<body class="main">
+
+    <div id="navbar">
+        <a href="../index.html">
+            <div id="navbar_li">Startseite</div>
+        </a>
+        <a href="../kathegorien.html">
+            <div id="navbar_li">Kathegorien</div>
+        </a>
+    </div>
+    <div id="griddyboy">
+    <h1>That Time I Got Reincarnated as a Slime</h1>
+
+
+    <!-- <div id="griddyboy"> -->
+        <p id="text">
+            That Time I Got Reincarnated as a Slime ist ein Isekai Anime. <br>
+            Es ist eine Online-Romanreihe und wurde 2018 in Deutschland als Anime-Fernsehserie umgesetzt.
+            <br> Die Serie ist sehr Spannend und legt viel Wert auf die Geschichte und den Sound bei Kämpfen.
+
+        </p>
+
+        <img id="pic" src="Tensura.jpg" alt="That Time I Got Reincarnated as a Slime logo">
+    <!-- </div> -->
+
+    <p>
+        Rimuru ist der Protagonist dieser Serie, er wurde als Mensch erstochen und wurde als Schleim wiedergeboren. <br>
+        In seiner neuen Welt trifft er auf viele Ereignisse und findet dabei neue Freunde. <br> Er will stärker werden
+        um seine Freunde und alles was ihm lieb ist beschützen.
+
+    </p>
+    <p id="spoilertext" onclick="reveal()">Klicke mich für spoiler!</p>
+    <p id="spoiler">
+       <a href="https://de.wikipedia.org/wiki/Tensei_Shitara_Slime_Datta_Ken#Inhalt">Handlung</a>
+    </p>
+
+
+</div>
+</body>
+<footer>
+    <a href="../Impressum.html" id="quelle">Impressum und kontakt</a>
+
+</footer>

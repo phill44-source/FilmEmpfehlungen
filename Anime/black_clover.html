@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="../stylesheet.css">
+    <title>FE</title>
+
+    <script>
+        let spoiler = false;
+        function reveal() {
+            if (spoiler == false) {
+                document.getElementById("spoiler").style.visibility = "visible";
+                spoiler = true;
+            }
+            else {
+                document.getElementById("spoiler").style.visibility = "hidden";
+                spoiler = false;
+            }
+        }
+    </script>
+
+</head>
+
+
+<body class="main">
+
+    <div id="navbar">
+        <a href="../index.html">
+            <div id="navbar_li">Startseite</div>
+        </a>
+        <a href="../kathegorien.html">
+            <div id="navbar_li">Kathegorien</div>
+        </a>
+    </div>
+    <div id="griddyboy">
+    <h1>Black Clover</h1>
+
+
+    <!-- <div id="griddyboy"> -->
+        <p id="text">
+            Black Clover ist ein Anime mit vielen Kämpfen und einer Spannenden Geschichte. <br>
+            Es ist eine Mangaserie und wurde 2017 in Deutschland als Anime-Fernsehserie umgesetzt.
+            <br> Es hat viele Folgen zum gucken, damit man so schnell nicht mehr gelangweilt wird.
+
+        </p>
+
+        <img id="pic" src="bc.jpg" alt="Black Clover logo">
+    <!-- </div> -->
+
+    <p>
+        In dieser Welt wird haubtsächlich mit Magie gekämpft, aber Asta der Haubt Charakter wurde ohne dieser Magie geboren. <br>
+        Aber auch ohne Magie, will Asta der stärkste Magier werden.
+
+    </p>
+    <p id="spoilertext" onclick="reveal()">Klicke mich für spoiler!</p>
+    <p id="spoiler">
+       <a href="https://de.wikipedia.org/wiki/Black_Clover#Inhalt">Handlung</a>
+    </p>
+
+
+</div>
+</body>
+<footer>
+    <a href="../Impressum.html" id="quelle">Impressum und kontakt</a>
+
+</footer>
