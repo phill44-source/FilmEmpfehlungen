@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="../stylesheet.css">
+    <title>FE</title>
+
+    <script>
+        let spoiler = false;
+        function reveal() {
+            if (spoiler == false) {
+                document.getElementById("spoiler").style.visibility = "visible";
+                spoiler = true;
+            }
+            else {
+                document.getElementById("spoiler").style.visibility = "hidden";
+                spoiler = false;
+            }
+        }
+    </script>
+
+</head>
+
+
+<body class="main">
+
+    <div id="navbar">
+        <a href="../index.html">
+            <div id="navbar_li">Startseite</div>
+        </a>
+        <a href="../kathegorien.html">
+            <div id="navbar_li">Kathegorien</div>
+        </a>
+    </div>
+    <div id="griddyboy">
+    <h1>Filmtitel</h1>
+
+
+    <!-- <div id="griddyboy"> -->
+        <p id="text">
+            eins text
+
+        </p>
+
+        <img id="pic" src="" alt="filmbild>
+    <!-- </div> -->
+
+    <p>
+        zwei text
+    </p>
+    <p id="spoilertext" onclick="reveal()">Klicke mich für spoiler!</p>
+    <p id="spoiler">
+       <a href="">Potenzieller link zur handlung, sonst handlungstext</a>
+    </p>
+
+
+</div>
+</body>
+<footer>
+
+
+</footer>
