@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="../stylesheet.css">
+    <title>FE</title>
+
+    <script>
+        let spoiler = false;
+        function reveal() {
+            if (spoiler == false) {
+                document.getElementById("spoiler").style.visibility = "visible";
+                spoiler = true;
+            }
+            else {
+                document.getElementById("spoiler").style.visibility = "hidden";
+                spoiler = false;
+            }
+        }
+    </script>
+
+</head>
+
+
+<body class="main">
+
+    <div id="navbar">
+        <a href="../index.html">
+            <div id="navbar_li">Startseite</div>
+        </a>
+        <a href="../kathegorien.html">
+            <div id="navbar_li">Kathegorien</div>
+        </a>
+    </div>
+    <div id="griddyboy">
+        <h1>Free Guy</h1>
+
+
+        <!-- <div id="griddyboy"> -->
+        <p id="text">
+            Free Guy ist ein Action-Komödien-Film, der
+            die Geschichte eines nicht-spielbaren Charakters
+            namens Guy in einem Open-World-Videospiel erzählt. 
+            Als Guy beginnt, sein Leben selbst in die Hand zu nehmen,
+            wird er zum unerwarteten Helden und muss die Welt retten
+            In "Free Guy", einem Action-Komödien-Film aus dem Jahr 2021,
+            spielt Ryan Reynolds die Hauptrolle  als Nicht-Spieler-Charakter
+            Guy. Der Film wurde von Shawn Levy inszeniert und 
+            von 20th Century Studios produziert.
+            Er feierte seine Premiere am 3. August 2021 in New York City  und
+            wurde am 13. August 2021 in den USA veröffentlicht.  Der Film
+            erhielt positive Kritiken und wurde zu einem kommerziellen Erfolg,
+            der weltweit über 300 Millionen US-Dollar einspielte.
+        </p>
+
+        <img id="pic" src="freeguy.jpg" alt="filmbild">
+        <!-- </div> -->
+        Free Guy ist ein Action-Komödien-Film, der
+        die Geschichte eines nicht-spielbaren Charakters
+        namens Guy in einem Open-World-Videospiel erzählt. <br>
+        Als Guy beginnt, sein Leben selbst in die Hand zu nehmen,
+        wird er zum unerwarteten Helden und muss die Welt retten. 
+        <p>
+            
+        </p>
+        <p id="spoilertext" onclick="reveal()">Klicke mich für spoiler!</p>
+        <p id="spoiler">
+            <a href="https://de.wikipedia.org/wiki/Free_Guy#Handlung">Handlung</a>
+        </p>
+
+
+    </div>
+</body>
+<footer>
+
+
+</footer>

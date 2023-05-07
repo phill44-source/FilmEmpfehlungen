@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="../stylesheet.css">
+    <title>FE</title>
+
+    <script>
+        let spoiler = false;
+        function reveal() {
+            if (spoiler == false) {
+                document.getElementById("spoiler").style.visibility = "visible";
+                spoiler = true;
+            }
+            else {
+                document.getElementById("spoiler").style.visibility = "hidden";
+                spoiler = false;
+            }
+        }
+    </script>
+
+</head>
+
+
+<body class="main">
+
+    <div id="navbar">
+        <a href="../index.html">
+            <div id="navbar_li">Startseite</div>
+        </a>
+        <a href="../kathegorien.html">
+            <div id="navbar_li">Kathegorien</div>
+        </a>
+    </div>
+    <div id="griddyboy">
+        <h1>Jumanji</h1>
+
+
+        <!-- <div id="griddyboy"> -->
+        <p id="text">
+            "Jumanji: Willkommen im Dschungel" ist ein Abenteuer-Actionfilm aus
+            dem Jahr 2017 und eine Fortsetzung des Originalfilms "Jumanji" aus
+            dem Jahr 1995.Die Handlung dreht sich um vier Highschool-Schüler, die durch ein Videospiel in eine fiktive
+            Dschungelwelt transportiert werden und dort als Avatare gefangen sind. Um zu überleben und ins reale Leben
+            zurückzukehren
+
+        </p>
+
+        <img id="pic" src="Jumanji promo.jpg" alt="filmbild">
+        <!-- </div> -->
+        "Jumanji: Willkommen im Dschungel" wurde im Jahr 2017 veröffentlicht und von Jake Kasdan inszeniert. Die
+        Hauptrollen wurden von Dwayne Johnson, Kevin Hart, Jack Black, Karen Gillan und Nick Jonas gespielt. Der Film
+        war ein großer kommerzieller Erfolg und spielte weltweit über 962 Millionen US-Dollar ein. Er erhielt auch
+        positive Kritiken für seine humorvolle und actionreiche Handlung sowie für die schauspielerischen Leistungen des
+        Ensembles.
+        <p>
+
+        </p>
+        <p id="spoilertext" onclick="reveal()">Klicke mich für spoiler!</p>
+        <p id="spoiler">
+            <a href="https://de.wikipedia.org/wiki/Jumanji:_Willkommen_im_Dschungel#Handlung">Handlung</a>
+        </p>
+
+
+    </div>
+</body>
+<footer>
+
+
+</footer>
