@@ -10,6 +10,12 @@ h1{
 
 }
 
+p{
+    align-self: center;
+    text-align: left;
+
+}
+
 #navbar{
     position: fixed;
     top:0em;
@@ -56,18 +62,23 @@ a{
 
 #text{
     margin: 1em;
-
+    align-self: center;
+    text-align: left;
 }
 #pic{
     display: block;
-    max-height: 15cm;
+    margin:1em;
+    min-width: 400px;
+    max-width:400px;
+    width: auto;
     height: auto;
 
-    margin:1em;
-    align-self: right;
+    
+    align-self: center;
 }
 #spoiler{
     visibility:hidden;
+    line-height: 20px;
 }
 #spoilertext{
     -webkit-touch-callout: none;
@@ -86,8 +97,8 @@ a{
 #griddyboy{
     display:flex;
     justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
+    /* flex-wrap: wrap; */
+    flex-direction: column; 
 }
 
 
@@ -96,5 +107,6 @@ a{
     font-size: small;
     color: grey;
 
-
 }
+
+
