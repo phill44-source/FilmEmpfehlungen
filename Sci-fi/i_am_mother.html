@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="../stylesheet.css">
+    <title>FE</title>
+
+    <script>
+        let spoiler = false;
+        function reveal(){
+            if(spoiler == false){
+                document.getElementById("spoiler").style.visibility = "visible";
+                spoiler = true;    
+            }
+            else{
+                document.getElementById("spoiler").style.visibility = "hidden";
+                spoiler = false;
+            }
+        }
+    </script>
+
+</head>
+
+
+<body class="main">
+
+    <div id="navbar">
+        <a href="../index.html"><div id="navbar_li">Startseite</div></a>
+        <a href="../kathegorien.html"><div id="navbar_li">Kathegorien</div></a>
+    </div>
+
+    <h1>I am mother</h1>
+
+
+    <div id="griddyboy">
+        <p id="text"> 
+            I am mother ist ein Sci-fi action Film der am 22 August 2019 in die (deutschen) Kinos kam. <br>
+            Er ist größtenteils eher ruhig, strahlt aber mit der Zeit mehr und mehr ein Angstgefühl aus und wird spannender.
+            <br> Außerdem behandelt er große ethische Fragen und um eine möglichkeit, wie KI’s in der Zukunft aussehen könnten.
+        
+        </p>
+        
+        <img id="pic" src="i_am_mother.jpeg" alt="I am mother logo" >
+    </div>
+
+    <p>
+        Der Film handelt von einer Jugendlichen, namens “Tochter”, die von einer KI namens “Mutter” seit ihrer Geburt aufzogen wurde. <br>
+        Die Tochter trifft eines Tages eine Fremde, die aus der sogenannten Außenwelt verletzt kam.
+
+    </p>
+    <p id="spoilertext" onclick="reveal()">Klicke mich für spoiler!</p>
+    <p id="spoiler">
+    hello there this is a spoiler
+    </p>
+
+
+
+</body>
+<footer>
+
+
+</footer>

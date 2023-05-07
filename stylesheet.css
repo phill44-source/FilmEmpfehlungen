@@ -52,13 +52,7 @@ a{
 
 }
 
-#griddyboy{
-    display:flex;
-    justify-content: center;
 
-
-
-}
 
 #text{
     margin: 1em;
@@ -66,9 +60,9 @@ a{
 }
 #pic{
     display: block;
-    max-width:50%;
-    width: auto;
+    max-height: 15cm;
     height: auto;
+
     margin:1em;
     align-self: right;
 }
@@ -89,3 +83,18 @@ a{
 
 }
 
+#griddyboy{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+#quelle{
+    font-style: italic;
+    font-size: small;
+    color: grey;
+
+
+}
