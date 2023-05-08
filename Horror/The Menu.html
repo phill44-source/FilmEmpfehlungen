@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="../stylesheet.css">
+    <title>FE</title>
+
+    <script>
+        let spoiler = false;
+        function reveal() {
+            if (spoiler == false) {
+                document.getElementById("spoiler").style.visibility = "visible";
+                spoiler = true;
+            }
+            else {
+                document.getElementById("spoiler").style.visibility = "hidden";
+                spoiler = false;
+            }
+        }
+    </script>
+
+</head>
+
+
+<body class="main">
+
+    <div id="navbar">
+        <a href="../index.html">
+            <div id="navbar_li">Startseite</div>
+        </a>
+        <a href="../kathegorien.html">
+            <div id="navbar_li">Kathegorien</div>
+        </a>
+    </div>
+    <div id="griddyboy">
+        <h1>the MENU</h1>
+
+
+        <!-- <div id="griddyboy"> -->
+        <p id="text">
+            "The Menu" ist ein kommender Thriller-Film aus
+            dem Jahr 2022, <br> der von Mark Mylod inszeniert wurde. 
+            Der Film handelt von einer Gruppe von hochrangigen Menschen, <br>die sich in einem abgelegenen 
+            Restaurant treffen, um ein exquisites und teures kulinarisches Erlebnis zu genießen. <br>Doch bald stellen sie fest, 
+            dass sie Teil eines viel größeren und gefährlicheren Spiels sind.
+        </p>
+
+        <img id="pic" src="2379387.jpg-c_310_420_x-f_jpg-q_x-xxyxx.jpg" alt="filmbild">
+        <p>
+            Die Hauptrollen werden von Anya Taylor-Joy und Ralph Fiennes gespielt, die eine talentierte Köchin bzw. <br>
+            Den mysteriösen Eigentümer des Restaurants verkörpern. <br>
+            Die Besetzung umfasst auch andere bekannte Schauspieler wie Nicholas Hoult und John Leguizamo.<br>
+            Der Film wird als raffiniert, spannend und düster beschrieben, mit einer interessanten Prämisse und faszinierenden Charakteren. <br>
+            Die Kombination aus Thriller-Elementen und kulinarischer Ästhetik verspricht ein einzigartiges und aufregendes Filmerlebnis. <br>
+            Fans von spannenden Thrillern und hochwertigen kulinarischen Erlebnissen sollten "The Menu" definitiv im Auge behalten.
+        <p>
+
+        </p>
+        <p id="spoilertext" onclick="reveal()">Klicke mich für spoiler!</p>
+        <p id="spoiler">
+            <a href="https://de.wikipedia.org/wiki/Jumanji:_Willkommen_im_Dschungel#Handlung">Handlung</a>
+        </p>
+
+
+    </div>
+</body>
+<footer>
+    <a href="../Impressum.html" id="quelle">Impressum und kontakt</a>
+
+</footer>

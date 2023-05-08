@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="../stylesheet.css">
+    <title>FE</title>
+
+    <script>
+        let spoiler = false;
+        function reveal() {
+            if (spoiler == false) {
+                document.getElementById("spoiler").style.visibility = "visible";
+                spoiler = true;
+            }
+            else {
+                document.getElementById("spoiler").style.visibility = "hidden";
+                spoiler = false;
+            }
+        }
+    </script>
+
+</head>
+
+
+<body class="main">
+
+    <div id="navbar">
+        <a href="../index.html">
+            <div id="navbar_li">Startseite</div>
+        </a>
+        <a href="../kathegorien.html">
+            <div id="navbar_li">Kathegorien</div>
+        </a>
+    </div>
+    <div id="griddyboy">
+        <h1>Lockwood & Co</h1>
+
+
+        <!-- <div id="griddyboy"> -->
+        <p id="text">
+            "Lockwood & Co." ist eine britische Jugendbuchreihe von Jonathan Stroud, die aus insgesamt fünf Bänden besteht. <br>
+            Die Reihe spielt in einer alternativen Version der modernen Welt, in der Geister und übersinnliche Phänomene alltäglich sind. <br>
+            Die Handlung konzentriert sich auf die gleichnamige Agentur Lockwood & Co., eine Gruppe von jugendlichen Geisterjägern, <br>
+            die sich auf die Bekämpfung übernatürlicher Ereignisse spezialisiert haben.
+        </p>
+
+        <img id="pic" src="Lockwood-Co.jpg" alt="filmbild">
+        <p>
+            Die Serie wird für ihre lebhafte Darstellung der Charaktere, spannende Handlung und Gruselfaktor gelobt. <br>
+            die sich auf die Bekämpfung übernatürlicher Ereignisse spezialisiert haben.<br>
+            Die Welt, in der die Serie spielt, ist reich an Details und hat eine eigene Mythologie, die die Leser in ihren Bann zieht. <br>
+            Die Serie ist für Kinder und Jugendliche im Alter von 10 bis 14 Jahren geeignet, <br>
+            kann aber auch von älteren Lesern genossen werden, die eine spannende und unterhaltsame Geschichte suchen.
+        <p>
+
+        </p>
+        <p id="spoilertext" onclick="reveal()">Klicke mich für spoiler!</p>
+        <p id="spoiler">
+            <a href="https://de.wikipedia.org/wiki/Jumanji:_Willkommen_im_Dschungel#Handlung">Handlung</a>
+        </p>
+
+
+    </div>
+</body>
+<footer>
+    <a href="../Impressum.html" id="quelle">Impressum und kontakt</a>
+
+</footer>

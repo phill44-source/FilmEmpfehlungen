@@ -61,7 +61,7 @@ a{
 
 
 #text{
-    margin: 1em;
+    
     align-self: center;
     text-align: left;
 }
@@ -109,4 +109,9 @@ a{
 
 }
 
+#topliste{
+    margin: 0;
+    align-self: left;
+    text-align: left;
+}
 
